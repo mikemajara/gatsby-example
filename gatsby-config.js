@@ -7,7 +7,14 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        defaultLayouts: {
+          default: require.resolve('./src/components/mdx-layout.tsx')
+        }
+      }
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-typescript",
