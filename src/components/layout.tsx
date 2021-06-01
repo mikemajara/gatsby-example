@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './header'
-import Footer from './footer'
+import Header from '@components/header'
+import Footer from '@components/footer'
 import Helmet from 'react-helmet'
 import { Container } from '@chakra-ui/layout'
 import { useStaticQuery, graphql } from 'gatsby';

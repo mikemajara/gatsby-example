@@ -1,6 +1,6 @@
 import React from 'react'
 import { MDXProvider } from "@mdx-js/react"
-import DefaultLayout from './layout'
+import DefaultLayout from '@components/layout'
 
 import {
   Heading,
